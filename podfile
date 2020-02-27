@@ -7,6 +7,12 @@ target 'Sinup_lesson' do
 
   # Pods for Sinup_lesson
     pod "PGFramework"
+    pod 'Firebase/Analytics'
+    pod "Firebase/Auth"
+    pod 'Firebase/Database'
+    pod 'Firebase/Storage'
+    pod 'Firebase'
+
   target 'Sinup_lessonTests' do
     inherit! :search_paths
     # Pods for testing

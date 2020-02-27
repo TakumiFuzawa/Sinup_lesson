@@ -15,6 +15,7 @@
 		D662DC3D24075DBB00EEBD78 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D662DC3C24075DBB00EEBD78 /* UserModel.swift */; };
 		D662DC4124075DF600EEBD78 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D662DC3F24075DF600EEBD78 /* NextViewController.swift */; };
 		D662DC4224075DF600EEBD78 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D662DC4024075DF600EEBD78 /* NextViewController.xib */; };
+		D662DC4424075F5D00EEBD78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D662DC4324075F5D00EEBD78 /* GoogleService-Info.plist */; };
 		D674658C24075B33001DC193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D674658B24075B33001DC193 /* AppDelegate.swift */; };
 		D674658E24075B33001DC193 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D674658D24075B33001DC193 /* SceneDelegate.swift */; };
 		D674659324075B33001DC193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D674659124075B33001DC193 /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		D662DC3C24075DBB00EEBD78 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		D662DC3F24075DF600EEBD78 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		D662DC4024075DF600EEBD78 /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		D662DC4324075F5D00EEBD78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D674658824075B33001DC193 /* Sinup_lesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sinup_lesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D674658B24075B33001DC193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D674658D24075B33001DC193 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				D674658A24075B33001DC193 /* Sinup_lesson */,
+				D662DC4324075F5D00EEBD78 /* GoogleService-Info.plist */,
 				D67465A124075B34001DC193 /* Sinup_lessonTests */,
 				D67465AC24075B34001DC193 /* Sinup_lessonUITests */,
 				D674658924075B33001DC193 /* Products */,
@@ -325,6 +328,7 @@
 				D662DC4224075DF600EEBD78 /* NextViewController.xib in Resources */,
 				D6CF17F224075BC8000B360C /* SinupViewController.xib in Resources */,
 				D674659324075B33001DC193 /* Main.storyboard in Resources */,
+				D662DC4424075F5D00EEBD78 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

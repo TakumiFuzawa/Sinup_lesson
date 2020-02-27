@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14D79FC7F2F91868F106A737 /* Pods_Sinup_lesson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AEFB67052C2D341732F776 /* Pods_Sinup_lesson.framework */; };
+		4258C9437A28E2FFBDABCFEA /* Pods_Sinup_lessonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E823A43B8748ACE356DF6A2D /* Pods_Sinup_lessonTests.framework */; };
+		6F244B3615369CE7E14D8B6F /* Pods_Sinup_lesson_Sinup_lessonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9869509D766730424BD8C54B /* Pods_Sinup_lesson_Sinup_lessonUITests.framework */; };
+		D662DC3924075CC000EEBD78 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D662DC3724075CC000EEBD78 /* LoginViewController.swift */; };
+		D662DC3A24075CC000EEBD78 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D662DC3824075CC000EEBD78 /* LoginViewController.xib */; };
+		D662DC3D24075DBB00EEBD78 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D662DC3C24075DBB00EEBD78 /* UserModel.swift */; };
+		D662DC4124075DF600EEBD78 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D662DC3F24075DF600EEBD78 /* NextViewController.swift */; };
+		D662DC4224075DF600EEBD78 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D662DC4024075DF600EEBD78 /* NextViewController.xib */; };
 		D674658C24075B33001DC193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D674658B24075B33001DC193 /* AppDelegate.swift */; };
 		D674658E24075B33001DC193 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D674658D24075B33001DC193 /* SceneDelegate.swift */; };
-		D674659024075B33001DC193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D674658F24075B33001DC193 /* ViewController.swift */; };
 		D674659324075B33001DC193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D674659124075B33001DC193 /* Main.storyboard */; };
 		D674659524075B34001DC193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D674659424075B34001DC193 /* Assets.xcassets */; };
 		D674659824075B34001DC193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D674659624075B34001DC193 /* LaunchScreen.storyboard */; };
 		D67465A324075B34001DC193 /* Sinup_lessonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67465A224075B34001DC193 /* Sinup_lessonTests.swift */; };
 		D67465AE24075B34001DC193 /* Sinup_lessonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67465AD24075B34001DC193 /* Sinup_lessonUITests.swift */; };
+		D6CF17F124075BC8000B360C /* SinupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF17EF24075BC8000B360C /* SinupViewController.swift */; };
+		D6CF17F224075BC8000B360C /* SinupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6CF17F024075BC8000B360C /* SinupViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +44,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F723512E031319061B711E0 /* Pods-Sinup_lesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinup_lesson.release.xcconfig"; path = "Target Support Files/Pods-Sinup_lesson/Pods-Sinup_lesson.release.xcconfig"; sourceTree = "<group>"; };
+		1182FE8AAF914024FECFF6C2 /* Pods-Sinup_lesson-Sinup_lessonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinup_lesson-Sinup_lessonUITests.release.xcconfig"; path = "Target Support Files/Pods-Sinup_lesson-Sinup_lessonUITests/Pods-Sinup_lesson-Sinup_lessonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D1D3CD95C5EE9AC67D12A43 /* Pods-Sinup_lesson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinup_lesson.debug.xcconfig"; path = "Target Support Files/Pods-Sinup_lesson/Pods-Sinup_lesson.debug.xcconfig"; sourceTree = "<group>"; };
+		8BBC3222A90CBEE684C57065 /* Pods-Sinup_lesson-Sinup_lessonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinup_lesson-Sinup_lessonUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sinup_lesson-Sinup_lessonUITests/Pods-Sinup_lesson-Sinup_lessonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9869509D766730424BD8C54B /* Pods_Sinup_lesson_Sinup_lessonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sinup_lesson_Sinup_lessonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A775A24FFDFFAC7D0322B3FA /* Pods-Sinup_lessonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinup_lessonTests.debug.xcconfig"; path = "Target Support Files/Pods-Sinup_lessonTests/Pods-Sinup_lessonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1AEFB67052C2D341732F776 /* Pods_Sinup_lesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sinup_lesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF01869A2B6BB4BD1180E52E /* Pods-Sinup_lessonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinup_lessonTests.release.xcconfig"; path = "Target Support Files/Pods-Sinup_lessonTests/Pods-Sinup_lessonTests.release.xcconfig"; sourceTree = "<group>"; };
+		D662DC3724075CC000EEBD78 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D662DC3824075CC000EEBD78 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		D662DC3C24075DBB00EEBD78 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D662DC3F24075DF600EEBD78 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		D662DC4024075DF600EEBD78 /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 		D674658824075B33001DC193 /* Sinup_lesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sinup_lesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D674658B24075B33001DC193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D674658D24075B33001DC193 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D674658F24075B33001DC193 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D674659224075B33001DC193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D674659424075B34001DC193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D674659724075B34001DC193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +70,9 @@
 		D67465A924075B34001DC193 /* Sinup_lessonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sinup_lessonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67465AD24075B34001DC193 /* Sinup_lessonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sinup_lessonUITests.swift; sourceTree = "<group>"; };
 		D67465AF24075B34001DC193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CF17EF24075BC8000B360C /* SinupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinupViewController.swift; sourceTree = "<group>"; };
+		D6CF17F024075BC8000B360C /* SinupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SinupViewController.xib; sourceTree = "<group>"; };
+		E823A43B8748ACE356DF6A2D /* Pods_Sinup_lessonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sinup_lessonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D79FC7F2F91868F106A737 /* Pods_Sinup_lesson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4258C9437A28E2FFBDABCFEA /* Pods_Sinup_lessonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F244B3615369CE7E14D8B6F /* Pods_Sinup_lesson_Sinup_lessonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88B49B96209911AE1D4F0601 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D1D3CD95C5EE9AC67D12A43 /* Pods-Sinup_lesson.debug.xcconfig */,
+				0F723512E031319061B711E0 /* Pods-Sinup_lesson.release.xcconfig */,
+				8BBC3222A90CBEE684C57065 /* Pods-Sinup_lesson-Sinup_lessonUITests.debug.xcconfig */,
+				1182FE8AAF914024FECFF6C2 /* Pods-Sinup_lesson-Sinup_lessonUITests.release.xcconfig */,
+				A775A24FFDFFAC7D0322B3FA /* Pods-Sinup_lessonTests.debug.xcconfig */,
+				CF01869A2B6BB4BD1180E52E /* Pods-Sinup_lessonTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D662DC3B24075D9D00EEBD78 /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				D662DC3C24075DBB00EEBD78 /* UserModel.swift */,
+			);
+			path = UserModel;
+			sourceTree = "<group>";
+		};
+		D662DC3E24075DDD00EEBD78 /* next */ = {
+			isa = PBXGroup;
+			children = (
+				D662DC3F24075DF600EEBD78 /* NextViewController.swift */,
+				D662DC4024075DF600EEBD78 /* NextViewController.xib */,
+			);
+			path = next;
+			sourceTree = "<group>";
+		};
 		D674657F24075B33001DC193 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +140,8 @@
 				D67465A124075B34001DC193 /* Sinup_lessonTests */,
 				D67465AC24075B34001DC193 /* Sinup_lessonUITests */,
 				D674658924075B33001DC193 /* Products */,
+				88B49B96209911AE1D4F0601 /* Pods */,
+				F6597F5F57AF0F480DEECAF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +158,11 @@
 		D674658A24075B33001DC193 /* Sinup_lesson */ = {
 			isa = PBXGroup;
 			children = (
+				D662DC3B24075D9D00EEBD78 /* UserModel */,
+				D6CF17F324075BD0000B360C /* Auth */,
+				D662DC3E24075DDD00EEBD78 /* next */,
 				D674658B24075B33001DC193 /* AppDelegate.swift */,
 				D674658D24075B33001DC193 /* SceneDelegate.swift */,
-				D674658F24075B33001DC193 /* ViewController.swift */,
 				D674659124075B33001DC193 /* Main.storyboard */,
 				D674659424075B34001DC193 /* Assets.xcassets */,
 				D674659624075B34001DC193 /* LaunchScreen.storyboard */,
@@ -128,6 +189,27 @@
 			path = Sinup_lessonUITests;
 			sourceTree = "<group>";
 		};
+		D6CF17F324075BD0000B360C /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D6CF17EF24075BC8000B360C /* SinupViewController.swift */,
+				D6CF17F024075BC8000B360C /* SinupViewController.xib */,
+				D662DC3724075CC000EEBD78 /* LoginViewController.swift */,
+				D662DC3824075CC000EEBD78 /* LoginViewController.xib */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		F6597F5F57AF0F480DEECAF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1AEFB67052C2D341732F776 /* Pods_Sinup_lesson.framework */,
+				9869509D766730424BD8C54B /* Pods_Sinup_lesson_Sinup_lessonUITests.framework */,
+				E823A43B8748ACE356DF6A2D /* Pods_Sinup_lessonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D67465B224075B34001DC193 /* Build configuration list for PBXNativeTarget "Sinup_lesson" */;
 			buildPhases = (
+				1632ABADDFE517D7E74F7774 /* [CP] Check Pods Manifest.lock */,
 				D674658424075B33001DC193 /* Sources */,
 				D674658524075B33001DC193 /* Frameworks */,
 				D674658624075B33001DC193 /* Resources */,
+				CFE2A94F785882CDA87F086A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D67465B524075B34001DC193 /* Build configuration list for PBXNativeTarget "Sinup_lessonTests" */;
 			buildPhases = (
+				796B9418A3011728EBC87271 /* [CP] Check Pods Manifest.lock */,
 				D674659A24075B34001DC193 /* Sources */,
 				D674659B24075B34001DC193 /* Frameworks */,
 				D674659C24075B34001DC193 /* Resources */,
@@ -170,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D67465B824075B34001DC193 /* Build configuration list for PBXNativeTarget "Sinup_lessonUITests" */;
 			buildPhases = (
+				A7BCED0C7941B9C5BEA2ECEC /* [CP] Check Pods Manifest.lock */,
 				D67465A524075B34001DC193 /* Sources */,
 				D67465A624075B34001DC193 /* Frameworks */,
 				D67465A724075B34001DC193 /* Resources */,
+				FDA07A8DAF106863CF330435 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +319,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D662DC3A24075CC000EEBD78 /* LoginViewController.xib in Resources */,
 				D674659824075B34001DC193 /* LaunchScreen.storyboard in Resources */,
 				D674659524075B34001DC193 /* Assets.xcassets in Resources */,
+				D662DC4224075DF600EEBD78 /* NextViewController.xib in Resources */,
+				D6CF17F224075BC8000B360C /* SinupViewController.xib in Resources */,
 				D674659324075B33001DC193 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +344,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1632ABADDFE517D7E74F7774 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sinup_lesson-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		796B9418A3011728EBC87271 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sinup_lessonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7BCED0C7941B9C5BEA2ECEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sinup_lesson-Sinup_lessonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE2A94F785882CDA87F086A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sinup_lesson/Pods-Sinup_lesson-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sinup_lesson/Pods-Sinup_lesson-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sinup_lesson/Pods-Sinup_lesson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA07A8DAF106863CF330435 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sinup_lesson-Sinup_lessonUITests/Pods-Sinup_lesson-Sinup_lessonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sinup_lesson-Sinup_lessonUITests/Pods-Sinup_lesson-Sinup_lessonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sinup_lesson-Sinup_lessonUITests/Pods-Sinup_lesson-Sinup_lessonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D674658424075B33001DC193 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D674659024075B33001DC193 /* ViewController.swift in Sources */,
+				D662DC4124075DF600EEBD78 /* NextViewController.swift in Sources */,
 				D674658C24075B33001DC193 /* AppDelegate.swift in Sources */,
+				D6CF17F124075BC8000B360C /* SinupViewController.swift in Sources */,
+				D662DC3924075CC000EEBD78 /* LoginViewController.swift in Sources */,
+				D662DC3D24075DBB00EEBD78 /* UserModel.swift in Sources */,
 				D674658E24075B33001DC193 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +628,7 @@
 		};
 		D67465B324075B34001DC193 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1D3CD95C5EE9AC67D12A43 /* Pods-Sinup_lesson.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +646,7 @@
 		};
 		D67465B424075B34001DC193 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F723512E031319061B711E0 /* Pods-Sinup_lesson.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +664,7 @@
 		};
 		D67465B624075B34001DC193 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A775A24FFDFFAC7D0322B3FA /* Pods-Sinup_lessonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +686,7 @@
 		};
 		D67465B724075B34001DC193 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF01869A2B6BB4BD1180E52E /* Pods-Sinup_lessonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +708,7 @@
 		};
 		D67465B924075B34001DC193 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BBC3222A90CBEE684C57065 /* Pods-Sinup_lesson-Sinup_lessonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +728,7 @@
 		};
 		D67465BA24075B34001DC193 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1182FE8AAF914024FECFF6C2 /* Pods-Sinup_lesson-Sinup_lessonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
